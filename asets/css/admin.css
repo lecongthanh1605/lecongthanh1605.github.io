@@ -1,0 +1,74 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #EE4D2D;
+    --boder-color: #bdbdbd;
+    --sart-gold-color: #ffce3e;
+
+    --header-height: 50px;
+}
+
+html {
+    font-size:62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.header {
+    height: 100px;
+    background-color: #005ab7;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header__img-link {
+    display: block;
+    margin: auto;
+}
+
+.header__img {
+    height: 78px;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.container__video {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container__presentation-content-heading {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #005ab7
+}
+
+.container__presentation-btn {
+    text-align: center;
+}
+
+.container__btn-thingspeak-link {
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.container-btn-thingspeak {
+    padding: 12px;
+    cursor: pointer;
+}
+
